@@ -23,6 +23,7 @@ export default function AppRotas() {
             }
             return <Icon color={color} />;
           },
+          tabBarLabelStyle: {fontSize: 12, fontWeight: 'bold'},
           tabBarActiveTintColor: '#2a9f85',
           tabBarInactiveTintColor: '#C7C7C7',
         })}>
